@@ -1,6 +1,7 @@
 package es.borjaestudios.db;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
@@ -27,13 +28,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        /*
         ListView listafav = (ListView) findViewById(R.id.milistafavores);
         firebaseAuth = FirebaseAuth.getInstance();
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String> (this, android.R.layout.simple_list_item_1, arrayList);
         listafav.setAdapter(arrayAdapter);
         final FirebaseUser fbuser = firebaseAuth.getCurrentUser();
-        final DatabaseReference DataRefe = FirebaseDatabase.getInstance().getReference("datos");
+        final DatabaseReference DataRefe = FirebaseDatabase.getInstance().getReference("datos").child("borja");
         DataRefe.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
@@ -64,6 +65,11 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        */
+        Intent intent = new Intent(MainActivity.this, CestaVistas.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
 
 
     }

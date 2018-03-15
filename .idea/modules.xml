@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DB.iml" filepath="$PROJECT_DIR$/DB.iml" />
+      <module fileurl="file://C:\Users\Borja\AndroidStudioProjects\DB_FireBase\DB.iml" filepath="C:\Users\Borja\AndroidStudioProjects\DB_FireBase\DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB_FireBase.iml" filepath="$PROJECT_DIR$/DB_FireBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Borja\AndroidStudioProjects\DB_FireBase\app\app.iml" filepath="C:\Users\Borja\AndroidStudioProjects\DB_FireBase\app\app.iml" />
     </modules>
   </component>
 </project>

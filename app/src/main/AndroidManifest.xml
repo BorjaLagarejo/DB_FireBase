@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".CestaVistas"
+            android:label="@string/title_activity_cesta_vistas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Agregar" />
+        <activity android:name=".Listar"></activity>
     </application>
 
 </manifest>
