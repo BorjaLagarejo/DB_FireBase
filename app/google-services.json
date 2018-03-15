@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "123826981957",
+    "firebase_url": "https://db-firebase-c8254.firebaseio.com",
+    "project_id": "db-firebase-c8254",
+    "storage_bucket": "db-firebase-c8254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123826981957:android:fe91b7b383b61e8c",
+        "android_client_info": {
+          "package_name": "es.borjaestudios.db"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123826981957-q8tn8pu8jerl50hpmip7qp3mf7ieer93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl00LIWluos3-6En-H0es4dUPX7TX3uW8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
